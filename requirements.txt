@@ -1,16 +1,7 @@
 langchain
-python-dotenv
 langchain_community 
-pypdf
-bs4
-arxiv
-pymupdf
 langchain-text-splitters
-unstructured
-langchain-openai
-langchain_chroma
-sentence_transformers
 langchain_huggingface
-tf-keras
 faiss-cpu
 langchain_groq
+langchain_core
