@@ -15,11 +15,6 @@ from langchain_core.chat_history import BaseChatMessageHistory
 
 import time
 
-from dotenv import load_dotenv
-load_dotenv()
-
-## load api key and Hf token
-os.environ['HF_TOKEN']=os.getenv('HF_TOKEN')
 ## define the embeddings
 embeddings=HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
